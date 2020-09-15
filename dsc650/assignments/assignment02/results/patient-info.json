@@ -1,0 +1,290 @@
+{
+    "_default": {
+        "1": {
+            "family_name": "Danforth",
+            "person_id": "danforth",
+            "personal_name": "Frank",
+            "visits": []
+        },
+        "2": {
+            "family_name": "Dyer",
+            "person_id": "dyer",
+            "personal_name": "William",
+            "visits": [
+                {
+                    "measurements": [
+                        {
+                            "person_id": "dyer",
+                            "quantity": "rad",
+                            "reading": 9.82,
+                            "visit_id": 619
+                        },
+                        {
+                            "person_id": "dyer",
+                            "quantity": "sal",
+                            "reading": 0.13,
+                            "visit_id": 619
+                        }
+                    ],
+                    "site": {
+                        "latitude": -49.85,
+                        "longitude": -128.57,
+                        "site_id": "DR-1"
+                    },
+                    "site_id": "DR-1",
+                    "visit_date": "1927-02-08",
+                    "visit_id": 619
+                },
+                {
+                    "measurements": [
+                        {
+                            "person_id": "dyer",
+                            "quantity": "rad",
+                            "reading": 7.8,
+                            "visit_id": 622
+                        },
+                        {
+                            "person_id": "dyer",
+                            "quantity": "sal",
+                            "reading": 0.09,
+                            "visit_id": 622
+                        }
+                    ],
+                    "site": {
+                        "latitude": -49.85,
+                        "longitude": -128.57,
+                        "site_id": "DR-1"
+                    },
+                    "site_id": "DR-1",
+                    "visit_date": "1927-02-10",
+                    "visit_id": 622
+                }
+            ]
+        },
+        "3": {
+            "family_name": "Lake",
+            "person_id": "lake",
+            "personal_name": "Anderson",
+            "visits": [
+                {
+                    "measurements": [
+                        {
+                            "person_id": "lake",
+                            "quantity": "rad",
+                            "reading": 2.19,
+                            "visit_id": 752
+                        },
+                        {
+                            "person_id": "lake",
+                            "quantity": "sal",
+                            "reading": 0.09,
+                            "visit_id": 752
+                        },
+                        {
+                            "person_id": "lake",
+                            "quantity": "temp",
+                            "reading": -16.0,
+                            "visit_id": 752
+                        }
+                    ],
+                    "site": {
+                        "latitude": -47.15,
+                        "longitude": -126.72,
+                        "site_id": "DR-3"
+                    },
+                    "site_id": "DR-3",
+                    "visit_date": NaN,
+                    "visit_id": 752
+                },
+                {
+                    "measurements": [
+                        {
+                            "person_id": "lake",
+                            "quantity": "rad",
+                            "reading": 1.46,
+                            "visit_id": 837
+                        },
+                        {
+                            "person_id": "lake",
+                            "quantity": "sal",
+                            "reading": 0.21,
+                            "visit_id": 837
+                        }
+                    ],
+                    "site": {
+                        "latitude": -48.87,
+                        "longitude": -123.4,
+                        "site_id": "MSK-4"
+                    },
+                    "site_id": "MSK-4",
+                    "visit_date": "1932-01-14",
+                    "visit_id": 837
+                },
+                {
+                    "measurements": [
+                        {
+                            "person_id": "lake",
+                            "quantity": "sal",
+                            "reading": 0.05,
+                            "visit_id": 734
+                        }
+                    ],
+                    "site": {
+                        "latitude": -47.15,
+                        "longitude": -126.72,
+                        "site_id": "DR-3"
+                    },
+                    "site_id": "DR-3",
+                    "visit_date": "1930-01-07",
+                    "visit_id": 734
+                }
+            ]
+        },
+        "4": {
+            "family_name": "Pabodie",
+            "person_id": "pb",
+            "personal_name": "Frank",
+            "visits": [
+                {
+                    "measurements": [
+                        {
+                            "person_id": "pb",
+                            "quantity": "rad",
+                            "reading": 4.35,
+                            "visit_id": 751
+                        },
+                        {
+                            "person_id": "pb",
+                            "quantity": "temp",
+                            "reading": -18.5,
+                            "visit_id": 751
+                        }
+                    ],
+                    "site": {
+                        "latitude": -47.15,
+                        "longitude": -126.72,
+                        "site_id": "DR-3"
+                    },
+                    "site_id": "DR-3",
+                    "visit_date": "1930-02-26",
+                    "visit_id": 751
+                },
+                {
+                    "measurements": [
+                        {
+                            "person_id": "pb",
+                            "quantity": "rad",
+                            "reading": 8.41,
+                            "visit_id": 734
+                        },
+                        {
+                            "person_id": "pb",
+                            "quantity": "temp",
+                            "reading": -21.5,
+                            "visit_id": 734
+                        }
+                    ],
+                    "site": {
+                        "latitude": -47.15,
+                        "longitude": -126.72,
+                        "site_id": "DR-3"
+                    },
+                    "site_id": "DR-3",
+                    "visit_date": "1930-01-07",
+                    "visit_id": 734
+                },
+                {
+                    "measurements": [
+                        {
+                            "person_id": "pb",
+                            "quantity": "rad",
+                            "reading": 7.22,
+                            "visit_id": 735
+                        },
+                        {
+                            "person_id": "pb",
+                            "quantity": "sal",
+                            "reading": 0.06,
+                            "visit_id": 735
+                        },
+                        {
+                            "person_id": "pb",
+                            "quantity": "temp",
+                            "reading": -26.0,
+                            "visit_id": 735
+                        }
+                    ],
+                    "site": {
+                        "latitude": -47.15,
+                        "longitude": -126.72,
+                        "site_id": "DR-3"
+                    },
+                    "site_id": "DR-3",
+                    "visit_date": "1930-01-12",
+                    "visit_id": 735
+                }
+            ]
+        },
+        "5": {
+            "family_name": "Roerich",
+            "person_id": "roe",
+            "personal_name": "Valentina",
+            "visits": [
+                {
+                    "measurements": [
+                        {
+                            "person_id": "roe",
+                            "quantity": "sal",
+                            "reading": 41.6,
+                            "visit_id": 752
+                        }
+                    ],
+                    "site": {
+                        "latitude": -47.15,
+                        "longitude": -126.72,
+                        "site_id": "DR-3"
+                    },
+                    "site_id": "DR-3",
+                    "visit_date": NaN,
+                    "visit_id": 752
+                },
+                {
+                    "measurements": [
+                        {
+                            "person_id": "roe",
+                            "quantity": "rad",
+                            "reading": 11.25,
+                            "visit_id": 844
+                        }
+                    ],
+                    "site": {
+                        "latitude": -49.85,
+                        "longitude": -128.57,
+                        "site_id": "DR-1"
+                    },
+                    "site_id": "DR-1",
+                    "visit_date": "1932-03-22",
+                    "visit_id": 844
+                },
+                {
+                    "measurements": [
+                        {
+                            "person_id": "roe",
+                            "quantity": "sal",
+                            "reading": 22.5,
+                            "visit_id": 837
+                        }
+                    ],
+                    "site": {
+                        "latitude": -48.87,
+                        "longitude": -123.4,
+                        "site_id": "MSK-4"
+                    },
+                    "site_id": "MSK-4",
+                    "visit_date": "1932-01-14",
+                    "visit_id": 837
+                }
+            ]
+        }
+    }
+}
