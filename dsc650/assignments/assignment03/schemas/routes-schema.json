@@ -1,3 +1,47 @@
 {
-
-}
+          "airline" : {
+              "airline_id" : {"type" : "number"},
+              "name" : {"type" : "string"},
+              "alias" : {"type" : "string"},
+              "iata" : {"type" : "string"},
+              "icao" : {"type" : "string"},
+              "callsign" : {"type" : "string"},
+              "country" : {"type" : "string"},
+              "boolean" : {"type" : "string"}
+          },
+          "src_airport" : {
+              "airport_id" : {"type" : "number"},
+              "name" : {"type" : "string"},
+              "city" : {"type" : "string"},
+              "country" : {"type" : "string"},
+              "iata" : {"type" : "string"},
+              "icao" : {"type" : "string"},
+              "latitude" : {"type" : "number"},
+              "longitude" : {"type" : "number"},
+              "altitude" : {"type" : "number"},
+              "timezone" : {"type" : "string"},
+              "dst" : {"type" : "string"},
+              "tz_id" : {"type" : "string"},
+              "type" : {"type" : "string"},
+              "source" : {"type" : "string"}
+          },
+          "dst_airport" : {
+              "airport_id" : {"type" : "number"},
+              "name" : {"type" : "string"},
+              "city" : {"type" : "string"},
+              "country" : {"type" : "string"},
+              "iata" : {"type" : "string"},
+              "icao" : {"type" : "string"},
+              "latitude" : {"type" : "number"},
+              "longitude" : {"type" : "number"},
+              "altitude" : {"type" : "number"},
+              "timezone" : {"type" : "number"},
+              "dst" : {"type" : "string"},
+              "tz_id" : {"type" : "string"},
+              "type" : {"type" : "string"},
+              "source" : {"type" : "string"}
+          },
+          "codeshare" : {"type" : "boolean"},
+          "equipment" : {"type" : "array", "items": {"type": "string"}
+      }
+ }
